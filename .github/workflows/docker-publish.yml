@@ -32,6 +32,4 @@ jobs:
           tags: |
             ghcr.io/helgi-e/skills-publish-docker-images/stackoverflown:main
             ghcr.io/helgi-e/skills-publish-docker-images/stackoverflown:${{ github.sha }}
-          run: |
-            docker build . --tag ghcr.io/helgi-e/skills-publish-docker-images/stackoverflown:main
-            docker push ghcr.io/helgi-e/skills-publish-docker-images/stackoverflown:main
+
